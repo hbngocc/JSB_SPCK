@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.nav {
+    background-color: #8FBC8F;
+    width: 100%;
+    height: 50px;
+}
+.about a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.about1{
+    margin: 50px 50px;
+}
+.about1 a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.sanpham
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .post-area */
+.post-area, .post-area1, .post-area2,.post-area3, .post-area4, .post-area5 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+h3:hover
+{
+    color: #8B0000;
+}
+.post-area a, .post-area1 a, .post-area2 a, .post-area3 a, .post-area4 a, .post-area5 a{
+    text-decoration: none;
+    font-size: 18.5px;
+    color: black;
+    font-weight:400;
+    text-align: center;
+}
+
+.post-area img, .post-area1 img, .post-area2 img, .post-area3 img, .post-area4 img, .post-area5 img{
+    width: 450px;
+    border-radius: 20px;
+}
+/* contact */
+.footer{
+    background-color: #CDC1C5;
+    width: 100%;
+    height: 240px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
